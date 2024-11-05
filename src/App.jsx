@@ -1,12 +1,12 @@
 import { Routing } from "./router/Routing"
 
+
 function App() {
 
-
   return (
-    <>
-    <Routing />
-    </>
+    <div className="layout">
+      <Routing />
+    </div>
   )
 }
 
